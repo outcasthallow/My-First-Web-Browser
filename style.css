@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+
+
+u {
+    color: sienna;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(44, 38, 26);
+    background-color: linen;
+    margin-left: 40px;
+    margin-right: 40px
+}
+
+hr {
+    border-color: saddlebrown;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+td {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color: rgb(237, 201, 0);
+    border: 2px solid black;
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: 20px;
+    color:linen;
+    background-color:darkorange;
+    border: 2px solid black;
+}
+
+.title3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color:crimson;
+    border: 2px solid black;
+}
+
+#heading1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    text-indent: 10px;
+    color: sienna;
+    font-style: italic;
+    border: 2px solid sienna;
+    border-start-end-radius: 200px;
+    border-end-end-radius: 200px;
+    font-weight: 900;
+    background-color: rgb(174, 201, 120);
+}
+
+#subhead1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: sienna;
+    text-decoration: underline;
+}
+
+#subhead2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: sienna;
+    border: 2px dashed sienna; 
+    text-indent: 10px;
+    border-start-end-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+#subhead3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: sienna;
+    text-decoration: underline;
+}
+
+.intro1 {
+    font-weight: bolder;
+}
+
+a {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+}
+
+.landd {
+    margin: 200px;
+}
+
+.title4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color: rgb(155, 225, 147);
+    border: 2px solid black;
+}
+
+.title5 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color: rgb(225, 152, 147);
+    border: 2px solid black;
+}
+
+.title6 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color: rgb(146, 220, 222);
+    border: 2px solid black;
+}
+
+.selfintro {
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    border-start-end-radius: 20px;
+    border-end-end-radius: 20px;
+    flex-wrap: wrap;
+
+}
+
+.selfintrotext {
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+
+.table1 {
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+   
+}
+
+.whatilike {
+    display: flex;
+
+}
+
+.whatilikepara1 {
+    width: 500px;
+}
+
+.interests1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.currentlikes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 25px;
+    width: 600px;
+}
+
+.gaming {
+    display: flex;
+    flex-flow: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -20px;
+    width: 600px;
+}
+
+.table2 {
+    display: flex;
+    margin-right: 50px;
+}
+
+.title7 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color:rgb(255, 0, 0);
+    border: 2px solid black;
+}
+
+.title8 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color:rgb(60, 144, 67);
+    border: 2px solid black;
+}
+
+.title9 {
+    font-weight: bold;
+    font-size: 20px;
+    color: linen;
+    background-color:rgb(63, 38, 24);
+    border: 2px solid black;
+}
+
+.skzlink {
+    display: flex;
+    flex-flow: column;
+    margin-top: -20px;
+}
+
+.footeritem {
+    text-decoration: none;
+    background-color:rgb(199, 189, 178);
+    color: linen;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footeritem:hover {
+    color:linen;
+    background-color: saddlebrown;
+}
+
+.headeritem {
+    text-decoration: none;
+    font-size: 20px;
+    color: linen;
+    background-color: saddlebrown;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.headeritemhome {
+    text-decoration: none;
+    font-size: 20px;
+    color: linen;
+    background-color: saddlebrown;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.headeritem:hover {
+    color:linen;
+    background-color: rgb(174, 201, 120);
+}
+
+.headeritemhome:hover {
+    color:linen;
+    background-color: rgb(174, 201, 120);
+}
+
+.skzlink1 {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: italic;
+    text-indent: 10px;
+    color: linen;
+    background-color: saddlebrown;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 430px;
+}
